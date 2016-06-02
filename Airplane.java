@@ -1,5 +1,6 @@
 
-public class Airplane extends FlyingObject implements Flying {
+public class Airplane extends FlyingObject implements Flying
+{
 
 	@Override
 	public void flyObject(int interval, int totalTime) 
@@ -18,5 +19,4 @@ public class Airplane extends FlyingObject implements Flying {
 		}
 
 	}
-
 }

@@ -24,7 +24,22 @@ public class FinalTest
 		newAirPlane.setAltimeter(50);
 		newAirPlane.flyObject(interval, totalTime);
 		
-
+		// JetPlane:  1000 MPH, 120 FPM
+		JetPlane newJetPlane = new JetPlane();
+		newJetPlane.setAirSpeed(1000);
+		newJetPlane.setAltimeter(120);
+		newJetPlane.flyObject(interval, totalTime);
+		
+		// Missile: 2500 MPH,  800 FPM
+		Missle newMissle = new Missle();
+		newMissle.setAirSpeed(2500);
+		newMissle.setAltimeter(800);
+		newMissle.flyObject(interval, totalTime);
+		
+		// Superman: 3500 MPH,  500 FPM
+		Superman newSuperman = new Superman();
+		newSuperman.setAirSpeed(3500);
+		newSuperman.setAltimeter(500);
+		newSuperman.flyObject(interval, totalTime);
 	}
-
 }
